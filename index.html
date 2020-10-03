@@ -15,28 +15,38 @@
  <title>Document</title>
 </head>
 <body>
- <header class="bg-secondary">
+  <!-- header section -->
+ <header class="border-top-primary-2px" id="back">
   <div class="container">
    <div class="row height align-items-center">
     <div class="col-md-6 col-lg-6">
-     <h1 class="display-4 text-uppercase">
-      Akan name <small class="text-danger">generator</small>
+     <h1 class class="display-4  text-uppercase" id="animation">
+      Akan name </class><br>
+      <small class="text-danger" >generator</small>
      </h1>
+  
      <p class="text-lead text-mute text-white w-100">The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which
      they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names
      have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
-     
+    
      This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries,
      enslaved people in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees.</p>
      <small class="text-warning lead text-uppercase">lets play</small>
-    <!-- </div>
+   
+     <!-- end of header section -->
+     
+
+     </div>
    </div>
-  </div> -->
-  <!-- fill-in section -->
-<!-- <div class="container">
- <div class="row">
-  <div class="col-md-12 col-lg-6"> -->
-   <form>
+  <header>
+  </div>
+  <!-- vertical lign -->
+
+  <!-- end of vertical lign -->
+  <div class="row height" id="trial">
+  <div class="col-md-6 col-lg-6 text-center d-flex justify-content-center">
+   <form on submit = "return.checkforlastname()">
+   
     Firstname:
     <input type="text" name="firstname" placeholder="name">
     <br><br>
@@ -46,27 +56,29 @@
     Gender:
    <input type="radio" name="gender" value="male"> Male
    <input type="radio" name="gender" value="female"> Female
-   <input type="radio" name="gender" value="other"> Other
     <br><br>
-    <label for="start"> :
-         Date of birth
-    <input type="date" id="start" name="trip-start" value="2018-07-22" min="1990-01-01" max="2015-12-31">
-    <label for="search"><br><br>
-     <button type="submit">search here</button>
+    <label for="date">
+     Date of birth
+      <input type="date" id="start" name="trip-start" value="1900-01-01" min="1990-01-01" max="2015-12-31"><br><br> 
+
+
+    <label for="search">
+     <button type="submit" id="main-btn">search here</button>
      <!-- end of fill in section -->
     </label>
 </label>
    </form>
-  </div>
- </div>
-</div>
-</div>
-</div>
-</div>
  </header>
+</div>
+<footer>
+  <div class="container-fluid bg-white ">
+    <div class="row ">
+      <div class="col text-align-center`">
+        <p class="d-flex justify-content-center h-20px w-50%">copyright &copy;All right reserved</p>
+      </div> 
+    </div>
+  </div>
+</footer> 
 
- <!-- bootstrap.js -->
- <script src="./bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
- <!-- end of bootstrap.js -->
 </body>
 </html>

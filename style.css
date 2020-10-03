@@ -1,3 +1,52 @@
 .height{
  min-height: 100vh;
+} 
+#back{
+  background-color: #808782;
 }
+#main-btn{
+ color: black;
+  background-color: white;
+  outline: 2px solid #656565;
+  outline-offset: 2px;
+ 
+}
+.main-btn:hover{
+  background-color: cornsilk;
+
+}
+@keyframes move {
+
+  0%{
+transform: translateX(30px);
+  }
+   25% {
+transform: translateX(60px);
+   }
+    50% {
+transform: translateX(100px);
+    }
+     75% {
+transform: translateX(-30px);
+     }
+     100%{
+transform: translateX(0px);
+
+     }
+}
+#animation{
+  animation-name: move;
+  animation-duration:10s;
+  animation-iteration-count: 3s;
+}
+
+@media screen and (min-width:572px){
+  #trial{
+    display: flex;
+    float: right;
+     flex-wrap: wrap;
+    transform: translateY(-70%);
+    padding: 1rem;
+   
+  }
+} 
