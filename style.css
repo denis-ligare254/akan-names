@@ -1,5 +1,6 @@
 .height{
  min-height: 100vh;
+ min-width: 100vw;
 } 
 #back{
   background-color: #808782;
@@ -49,4 +50,5 @@ transform: translateX(0px);
     padding: 1rem;
    
   }
+
 } 
