@@ -6,7 +6,7 @@ var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 var dateWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-
+// inputs from the users are captured here
 function Clickme() {
  var day = parseInt(document.getElementById("day").value);
 
@@ -25,7 +25,7 @@ function Clickme() {
  else {
   name = female[d];
  }
-
+// output is displayed here
  alert("You were born on " + dateWeek[d] + " and your Akan name is " + name);
  document.getElementById('akan').innerHTML = "You were born on " + daysOfTheWeek[d] + " and your Akan name is: " + maleNames[d];
 }
