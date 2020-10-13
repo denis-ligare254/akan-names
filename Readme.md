@@ -7,7 +7,10 @@ The following are technologies that i used  when making the application
 -Javascript
 -Bootstrap
 ## Installation procedure
-
+The application can be installed by cloning using the following steps
+-create an empty folder
+-using the link ,clone it to the created folder
+run the index.html file using a chrome browser
 
 
 
