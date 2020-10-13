@@ -6,6 +6,7 @@ The following are technologies that i used  when making the application
 -CSS3
 -Javascript
 -Bootstrap
+## Installation procedure
 
 
 
