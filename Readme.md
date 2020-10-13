@@ -15,22 +15,7 @@ run the index.html file using a chrome browser
 https://github.com/denis-ligare254/akan-names.git
 
 ### link to gh-pages
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://denis-ligare254.github.io/akan-names/
 
 
 # MIT LICENCE
