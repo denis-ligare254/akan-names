@@ -1,4 +1,5 @@
 # Akan name generator
+### *Authored by Denis Ligare*
 Akan name generator is a web application that takes users inputs,according to the day,date and the month that he/she was born,it later displays akan names as the output.
 ## technologies used
 The following are technologies that i used  when making the application
