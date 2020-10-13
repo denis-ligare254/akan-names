@@ -9,9 +9,12 @@ The following are technologies that i used  when making the application
 ## Installation procedure
 The application can be installed by cloning using the following steps
 -create an empty folder
--using the link ,clone it to the created folder
+-using the link https://github.com/denis-ligare254/akan-names.git,clone it to the created folder
 run the index.html file using a chrome browser
+### link to github repository
+https://github.com/denis-ligare254/akan-names.git
 
+### link to gh-pages
 
 
 
